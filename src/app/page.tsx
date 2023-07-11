@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
 export default function Home() {
-  return <>Body</>;
+  return <>Home Page Picture + Name + Job Name</>;
 }
