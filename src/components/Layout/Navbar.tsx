@@ -6,9 +6,11 @@ export default function Navbar() {
   return (
     <div className="h-14 flex items-center justify-between ">
       <div className="">
-        <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
-          Subham Beura
-        </h3>
+        <Link href="/">
+          <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
+            Subham Beura
+          </h3>
+        </Link>
       </div>
       <div className=" flex items-center space-x-14">
         <Button asChild variant={"outline"}>

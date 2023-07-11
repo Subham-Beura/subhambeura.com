@@ -20,13 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex">
-        <div className="left-margin w-[2.5vw] bg-fuchsia-300"></div>
+        <div className="left-margin w-[2.5vw] "></div>
         <div className="flex flex-col w-[95vw] h-full">
           <Navbar />
           <div className={inter.className + " min-h-[90vh] "}>{children}</div>
           <Footer />
         </div>
-        <div className="left-margin w-[2.5vw] bg-fuchsia-300"></div>
+        <div className="left-margin w-[2.5vw] "></div>
       </body>
     </html>
   );
