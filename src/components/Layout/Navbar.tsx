@@ -13,13 +13,13 @@ export default function Navbar() {
         </Link>
       </div>
       <div className=" flex items-center space-x-14">
-        <Button asChild variant={"outline"}>
+        <Button asChild variant={"link"}>
           <Link href="/about">About</Link>
         </Button>
-        <Button asChild variant={"outline"}>
+        <Button asChild variant={"link"}>
           <Link href="/resume">Resume</Link>
         </Button>
-        <Button asChild variant={"outline"}>
+        <Button asChild variant={"link"}>
           <Link href="/projects">Projects</Link>
         </Button>
         <Button asChild variant={"default"} className="w-36">
