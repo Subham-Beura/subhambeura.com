@@ -5,6 +5,15 @@ import { Inter } from "next/font/google";
 import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiOutlineMail,
+  AiTwotoneMail,
+} from "react-icons/ai";
+import Link from "next/link";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -26,7 +35,20 @@ export default function RootLayout({
           <div className={"min-h-[88vh] h-fit "}>{children}</div>
           <Footer />
         </div>
-        <div className="left-margin w-[2.5vw] "></div>
+        <div className="left-margin w-[2.5vw]  flex flex-col items-center justify-end space-y-10 pb-6">
+          <Link href={"https://github.com/Subham-Beura"} target="_blank">
+            <AiFillGithub size={25} />
+          </Link>
+          <Link
+            href={"https://www.linkedin.com/in/subham-beura-aa5213231/"}
+            target="_blank"
+          >
+            <AiFillLinkedin size={25} />
+          </Link>
+          <Link href={"mailto:subhambeura20@gmail.com"}>
+            <AiTwotoneMail size={25} />
+          </Link>
+        </div>
       </body>
     </html>
   );
