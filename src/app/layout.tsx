@@ -35,7 +35,7 @@ export default function RootLayout({
           <div className={"min-h-[88vh] h-fit "}>{children}</div>
           <Footer />
         </div>
-        <div className="left-margin w-[2.5vw]  flex flex-col items-center justify-end space-y-10 pb-6">
+        <div className="left-margin w-[2.5vw]  flex flex-col items-center justify-end space-y-10 pb-6 fixed right-0 bottom-6">
           <Link href={"https://github.com/Subham-Beura"} target="_blank">
             <AiFillGithub size={25} />
           </Link>
