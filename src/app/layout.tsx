@@ -32,7 +32,7 @@ export default function RootLayout({
         <div className="left-margin w-[2.5vw] "></div>
         <div className="flex flex-col w-[95vw] h-full">
           <Navbar />
-          <div className={"min-h-[88vh] h-fit "}>{children}</div>
+          <div className={"min-h-[16vh] h-fit "}>{children}</div>
           <Footer />
         </div>
         <div className="left-margin w-[2.5vw]  flex flex-col items-center justify-end space-y-10 pb-6 fixed right-0 bottom-6">
