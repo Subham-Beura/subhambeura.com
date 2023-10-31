@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"flex " + inter.className}>
+      <body className={"flex bg-[#F0F0F0] " + inter.className}>
         <div className="left-margin w-[2.5vw] "></div>
         <div className="flex flex-col w-[95vw] h-full">
           <Navbar />
