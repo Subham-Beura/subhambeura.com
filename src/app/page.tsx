@@ -27,7 +27,7 @@ export default function Home() {
     <div>
       <div className="flex w-full h-full">
         <div className="w-[45%] bg-black h-[88vh]"></div>
-        <div className="w-[5%] bg-white h-[88vh]"></div>
+        <div className="w-[5%] h-[88vh]"></div>
 
         <div className="w-[50%]  h-[88vh] flex flex-col justify-center space-y-8">
           <div className="">
@@ -49,7 +49,47 @@ export default function Home() {
           {isVisible && <div className="mouse mt-[10vh]" />}
         </div>
       </div>
-      <div className="w-[50%]  h-screen flex flex-col justify-center space-y-8"></div>
+      {/* About ME Section */}
+      <div className="w-full pt-[25vh]  h-screen flex flex-col justify-between items-center ">
+        <h3 className="font-bold text-2xl  uppercase font-sans">About Me</h3>
+        <div className="flex flex-col items-center space-y-8">
+          <p>
+            I am from the temple city of
+            <span className="font-semibold font-sans text-xl">
+              {" "}
+              Bhubaneswar{" "}
+            </span>
+            located in Odisha,India.
+          </p>
+          <p>
+            But I mostly grew up in{" "}
+            <span className="font-semibold font-sans text-xl">Puri</span>, a
+            beautiful costal town
+          </p>
+          <p>I first tried programing when I was 18,</p>
+        </div>
+        <h5 className="font-light italic mt-[10vh]">
+          It was love at first sight
+        </h5>
+      </div>
+      <div className="w-full pt-[20vh]  h-screen flex flex-col justify-between items-center">
+        <h3 className="font-bold text-2xl  uppercase font-sans">
+          What Do I Do??
+        </h3>
+        <div className="flex flex-col items-center space-y-8">
+          <p>
+            I am a Full Stack Web Developer with a particular interest in
+            working with innovative projects.
+          </p>
+          <p>
+            I am currently pursueing my Bachelors in Computer Engineering in
+            IIIT BBSR
+          </p>
+        </div>
+        <h5 className="font-light italic mt-[10vh]">
+          I build websites.I build apps.I build Software
+        </h5>
+      </div>
     </div>
   );
 }
