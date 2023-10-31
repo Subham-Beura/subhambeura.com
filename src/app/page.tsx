@@ -50,40 +50,63 @@ export default function Home() {
         </div>
       </div>
       {/* About ME Section */}
-      <div className="w-full pt-[25vh]  h-screen flex flex-col justify-between items-center ">
+      <div className="w-full mt-[10vh] pt-[10vh]  h-[80vh] flex flex-col justify-between items-center border-black border-t-4">
         <h3 className="font-bold text-2xl  uppercase font-sans">About Me</h3>
         <div className="flex flex-col items-center space-y-8">
+          <div className="flex flex-col justify-center items-center space-y-3">
+            <p>
+              I am from the temple city of
+              <span className="font-semibold font-sans text-xl">
+                {" "}
+                Bhubaneswar{" "}
+              </span>
+            </p>
+            <p>located in Odisha,India.</p>
+            <p>
+              But I mostly grew up in{" "}
+              <span className="font-semibold font-sans text-xl">Puri</span>, a
+              beautiful costal town
+            </p>
+          </div>
+
           <p>
-            I am from the temple city of
-            <span className="font-semibold font-sans text-xl">
-              {" "}
-              Bhubaneswar{" "}
+            I am a{" "}
+            <span className="font-bold font-sans text-xl">
+              Aerospace Enthusiast{" "}
             </span>
-            located in Odisha,India.
-          </p>
-          <p>
-            But I mostly grew up in{" "}
-            <span className="font-semibold font-sans text-xl">Puri</span>, a
-            beautiful costal town
+            and a avid{" "}
+            <span className="font-bold font-sans text-xl">Flute </span>Player,
           </p>
           <p>I first tried programing when I was 18,</p>
         </div>
-        <h5 className="font-light italic mt-[10vh]">
+        <h5 className="font-light text-xl italic mt-[5vh]">
           It was love at first sight
         </h5>
       </div>
-      <div className="w-full pt-[20vh]  h-screen flex flex-col justify-between items-center">
+      <div className="w-full mt-[10vh] pt-[10vh]  h-[80vh] flex flex-col justify-between items-center border-black border-t-4">
         <h3 className="font-bold text-2xl  uppercase font-sans">
           What Do I Do??
         </h3>
         <div className="flex flex-col items-center space-y-8">
           <p>
-            I am a Full Stack Web Developer with a particular interest in
-            working with innovative projects.
+            I am a{" "}
+            <span className="font-bold font-sans text-xl">
+              Full Stack Web Developer
+            </span>
           </p>
           <p>
-            I am currently pursueing my Bachelors in Computer Engineering in
-            IIIT BBSR
+            I am a Web Developer in{" "}
+            <Link
+              href={"https://pssfinancial.com"}
+              target="_blank"
+              rel="noreferrer"
+              className="font-bold font-sans text-xl hover:underline"
+            >
+              PSS Finacial Service
+            </Link>
+          </p>
+          <p>
+            I am pursueing my Bachelors in Computer Engineering in IIIT BBSR
           </p>
         </div>
         <h5 className="font-light italic mt-[10vh]">
