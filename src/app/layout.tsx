@@ -28,14 +28,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"flex bg-[#F0F0F0] " + inter.className}>
-        <div className="left-margin w-[2.5vw] "></div>
-        <div className="flex flex-col w-[95vw] h-full">
+      <body className={"md:flex bg-[#F0F0F0]  " + inter.className}>
+        <div className="left-margin  md:w-[2.5vw] "></div>
+        <div className="flex flex-col  md:w-[95vw] h-full">
           <Navbar />
           <div className={"min-h-[16vh] h-fit "}>{children}</div>
           <Footer />
         </div>
-        <div className="left-margin w-[2.5vw]  flex flex-col items-center justify-end space-y-10 pb-6 fixed right-0 bottom-6">
+        <div className="hidden left-margin w-[2.5vw]  md:flex flex-col items-center justify-end space-y-10 pb-6 fixed right-0 bottom-6">
           <Link href={"https://github.com/Subham-Beura"} target="_blank">
             <AiFillGithub size={25} />
           </Link>

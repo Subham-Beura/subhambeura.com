@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="h-16 flex items-center justify-between ">
+    <div className="h-16 flex items-center justify-between mx-2 ">
       <div className="">
         <Link href="/">
           <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
@@ -22,7 +22,7 @@ export default function Navbar() {
         <Button asChild variant={"link"}>
           <Link href="/projects">Projects</Link>
         </Button>
-        <Button asChild variant={"default"} className="w-36">
+        <Button asChild variant={"default"} className="w-26">
           <Link href="/contact">Contact</Link>
         </Button>
       </div>
