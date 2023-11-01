@@ -12,17 +12,14 @@ export default function Navbar() {
           </h3>
         </Link>
       </div>
-      <div className=" flex items-center space-x-14">
-        <Button asChild variant={"link"}>
-          <Link href="/about">About</Link>
-        </Button>
+      <div className=" flex items-center justify-between">
         <Button asChild variant={"link"}>
           <Link href="/resume">Resume</Link>
         </Button>
         <Button asChild variant={"link"}>
           <Link href="/projects">Projects</Link>
         </Button>
-        <Button asChild variant={"default"} className="w-26">
+        <Button asChild variant={"default"} className="hidden md:block md:w-26">
           <Link href="/contact">Contact</Link>
         </Button>
       </div>

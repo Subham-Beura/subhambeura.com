@@ -26,10 +26,7 @@ export default function Home() {
   return (
     <div>
       <div className="flex w-full h-full">
-        <div className="w-[45%] bg-black h-[88vh]"></div>
-        <div className="w-[5%] h-[88vh]"></div>
-
-        <div className="w-[50%]  h-[88vh] flex flex-col justify-center space-y-8">
+        <div className="w-full  h-[88vh] flex flex-col justify-center items-center space-y-8">
           <div className="">
             Hi <span className="h-4">👋</span>, I am
           </div>
