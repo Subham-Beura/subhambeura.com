@@ -49,30 +49,30 @@ export default function Home() {
       {/* About ME Section */}
       <div className="w-full mt-[10vh] pt-[10vh]  h-[80vh] flex flex-col justify-between items-center border-black border-t-4">
         <h3 className="font-bold text-2xl  uppercase font-sans">About Me</h3>
-        <div className="flex flex-col items-center space-y-8">
+        <div className="flex flex-col items-center space-y-8 px-2">
           <div className="flex flex-col justify-center items-center space-y-3">
-            <p>
+            <p className="text-center">
               I am from the temple city of
-              <span className="font-semibold font-sans text-xl">
-                {" "}
-                Bhubaneswar{" "}
+              <span className="font-semibold font-sans mx-1 text-xl">
+                
+                 Bhubaneswar
               </span>
             </p>
             <p>located in Odisha,India.</p>
-            <p>
-              But I mostly grew up in{" "}
-              <span className="font-semibold font-sans text-xl">Puri</span>, a
+            <p className="text-center">
+              But I mostly grew up in
+              <span className="font-semibold font-sans text-xl mx-1">Puri</span>, a
               beautiful costal town
             </p>
           </div>
 
-          <p>
-            I am a{" "}
-            <span className="font-bold font-sans text-xl">
-              Aerospace Enthusiast{" "}
+          <p className="text-center">
+            I am a
+            <span className=" mx-2 font-bold font-sans text-xl">
+              Aerospace Enthusiast
             </span>
-            and a avid{" "}
-            <span className="font-bold font-sans text-xl">Flute </span>Player,
+            and a avid
+          <span className="mx-2 font-bold font-sans text-xl">Flute</span>Player,
           </p>
           <p>I first tried programing when I was 18,</p>
         </div>
@@ -86,13 +86,13 @@ export default function Home() {
         </h3>
         <div className="flex flex-col items-center space-y-8">
           <p>
-            I am a{" "}
+            I am a
             <span className="font-bold font-sans text-xl">
               Full Stack Web Developer
             </span>
           </p>
           <p>
-            I am a Web Developer in{" "}
+            I am a Web Developer in
             <Link
               href={"https://pssfinancial.com"}
               target="_blank"
