@@ -9,8 +9,8 @@ export default function Home() {
   useEffect(() => {
     const listenToScroll = () => {
       let heightToHideFrom = 1;
-      const winScroll =
-        document.body.scrollTop || document.documentElement.scrollTop;
+      const winScroll = document.body.scrollTop ||
+        document.documentElement.scrollTop;
 
       if (winScroll > heightToHideFrom) {
         isVisible && // to limit setting state only the first time
@@ -105,7 +105,7 @@ export default function Home() {
             <span>from Dec 2022 to April 2024</span>
           </p>
           <p>
-            I am pursueing my Bachelors in Computer Engineering in IIIT BBSR
+            I am currently pursueing my Bachelors in Computer Engineering in IIIT BBSR
           </p>
         </div>
         <h5 className="font-light italic mt-[10vh]">
