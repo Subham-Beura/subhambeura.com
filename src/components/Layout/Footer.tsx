@@ -16,8 +16,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-black md:border-t-4 flex flex-col md:flex-row justify-between h-fit text-center">
-        <div className="pt-6 border-black md:w-[30vw] border-y-4 md:border-y-0 md:border-r-4 font-sans text-2xl font-semibold md:pt-10 h-24 hover:bg-amber-500">
-          Github
+        <div className="pt-6 flex-col items-center justify-center border-black md:w-[30vw] border-y-4 md:border-y-0 md:border-r-4 font-sans text-2xl font-semibold md:pt-10 h-24 hover:bg-amber-500">
+          <p>Github</p>
         </div>
         <div className="pt-6 md:w-[30vw] font-sans  text-2xl font-semibold md:pt-10 h-24 hover:bg-amber-500">
           LinkedIn

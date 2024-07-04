@@ -30,7 +30,7 @@ export default function Home() {
           <div className="">
             Hi <span className="h-4">👋</span>, I am
           </div>
-          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl  hover:text-amber-600">
             SUBHAM BEURA
           </h1>
           <h2 className="from-gray-700 scroll-m-20 border-b pb-2 text-2xl font-light tracking-tight transition-colors first:mt-0">
@@ -41,7 +41,7 @@ export default function Home() {
             className="min-w-max w-fit px-10 py-6"
             asChild
           >
-            <Link href="/contact">Get In Touch</Link>
+            <Link href="/contact" className="hover:bg-amber-600">Get In Touch</Link>
           </Button>
           {isVisible && <div className="mouse mt-[10vh]" />}
         </div>
