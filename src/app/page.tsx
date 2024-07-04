@@ -50,19 +50,19 @@ export default function Home() {
       <div className="w-full mt-[10vh] pt-[10vh]  h-[80vh] flex flex-col justify-between items-center border-black border-t-4">
         <h3 className="font-bold text-2xl  uppercase font-sans">About Me</h3>
         <div className="flex flex-col items-center space-y-8 px-2">
-          <div className="flex flex-col justify-center items-center space-y-3">
+          <div className="flex flex-col justify-center items-center space-y-3 my-4">
             <p className="text-center">
               I am from the temple city of
-              <span className="font-semibold font-sans mx-1 text-xl">
-                
-                 Bhubaneswar
+              <br></br>
+              <span className="font-semibold font-sans mx-1  text-xl w-full">
+                Bhubaneswar
               </span>
             </p>
             <p>located in Odisha,India.</p>
             <p className="text-center">
               But I mostly grew up in
-              <span className="font-semibold font-sans text-xl mx-1">Puri</span>, a
-              beautiful costal town
+              <span className="font-semibold font-sans text-xl mx-1">Puri</span>
+              , a beautiful costal town
             </p>
           </div>
 
@@ -72,7 +72,8 @@ export default function Home() {
               Aerospace Enthusiast
             </span>
             and a avid
-          <span className="mx-2 font-bold font-sans text-xl">Flute</span>Player,
+            <span className="mx-2 font-bold font-sans text-xl">Flute</span>
+            Player,
           </p>
           <p>I first tried programing when I was 18,</p>
         </div>
@@ -80,27 +81,28 @@ export default function Home() {
           It was love at first sight
         </h5>
       </div>
-      <div className="w-full mt-[10vh] pt-[10vh]  h-[80vh] flex flex-col justify-between items-center border-black border-t-4">
+      <div className="w-full mt-[10vh] pt-[10vh]  h-[80vh] flex flex-col justify-between items-center border-black border-t-4 text-center px-2">
         <h3 className="font-bold text-2xl  uppercase font-sans">
           What Do I Do??
         </h3>
         <div className="flex flex-col items-center space-y-8">
           <p>
             I am a
-            <span className="font-bold font-sans text-xl">
+            <span className="font-bold font-sans text-xl mx-2">
               Full Stack Web Developer
             </span>
           </p>
           <p>
-            I am a Web Developer in
+            I worked as a Web Developer in
             <Link
               href={"https://pssfinancial.com"}
               target="_blank"
               rel="noreferrer"
-              className="font-bold font-sans text-xl hover:underline"
+              className="font-bold font-sans text-xl mx-2 hover:underline"
             >
               PSS Finacial Service
             </Link>
+            <span>from Dec 2022 to April 2024</span>
           </p>
           <p>
             I am pursueing my Bachelors in Computer Engineering in IIIT BBSR
